@@ -158,7 +158,7 @@
           }
         }
             {
-          "title": "Carousel",
+          "title": "carousel",
           "id": "carousel",
           "plugins": {
             "xwalk": {
@@ -173,7 +173,7 @@
           }
         },
         {
-          "title": "Carousel Item",
+          "title": "carousel Item",
           "id": "carousel-item",
           "plugins": {
             "xwalk": {
