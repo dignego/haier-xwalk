@@ -45,5 +45,11 @@
     "components": [
       "carousel-item"
     ]
+  },
+  {
+    "id": "carouselzo",
+    "components": [
+      "carousel-item"
+    ]
   }
 ]
