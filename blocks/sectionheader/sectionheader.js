@@ -1,4 +1,4 @@
-import './sectionheader.css';
+import '../sectionheader/sectionheader.css';
 
 export default function SectionHeader({ text }) {
   return (
