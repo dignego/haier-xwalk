@@ -1,3 +1,5 @@
+import './sectionheader.css';
+
 export default function SectionHeader({ text }) {
   return (
     <div className="section-header">
