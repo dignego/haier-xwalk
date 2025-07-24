@@ -267,16 +267,22 @@
     ]
   },
   {
-    "id": "carouselzo",
+    "id": "slide",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Carousel Style",
-        "options": [
-  
-        ]
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
-  }
+  },
 ]
