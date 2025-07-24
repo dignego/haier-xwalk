@@ -54,5 +54,13 @@
     "components": [
       "carousel-item"
     ]
+  },
+   {
+    "id": "sectionheader",
+    "include": true,
+    "components": [
+      "text"
+    ]
   }
+  
 ]
