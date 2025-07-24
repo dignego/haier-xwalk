@@ -49,12 +49,6 @@
   },
   {
     "id": "carouselzo",
-    "components": [
-      "carousel-item"
-    ]
-  },
-  {
-    "id": "carouselzo",
     "include": true,
     "components": [
       "carousel-item"
