@@ -50,7 +50,7 @@
   {
     "id": "carouselzo",
     "components": [
-      "carousel-item"
+      "slide"
     ]
   }
 ]
