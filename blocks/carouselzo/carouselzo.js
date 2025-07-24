@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import 'swiper/swiper-bundle.min.css';
+import '../carousel/swiper-bundle.min.css';
 
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.carousel-wrapper', {
