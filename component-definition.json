@@ -205,7 +205,7 @@
              }
             },
              {
-       "title": "sectionheader",
+       "title": "Sectionheader",
           "id": "sectionheader",
           "plugins": {
             "xwalk": {
