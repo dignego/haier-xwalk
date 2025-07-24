@@ -300,12 +300,14 @@
   },
   {
     "id": "sectionheader",
-    "fields": {
+    "fields": [
+        {
         "component": "richtext",
         "name": "text",
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
+        }
+    ]
   }
 ]
