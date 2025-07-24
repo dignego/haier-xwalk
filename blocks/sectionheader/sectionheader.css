@@ -9,7 +9,7 @@
 .section-header-line {
   flex: 1;
   height: 1px;
-  background-color: #0072ce; /* Haier blue */
+  background-color: #0072ce !important; /* Haier blue */
   margin: 0 20px;
 }
 
