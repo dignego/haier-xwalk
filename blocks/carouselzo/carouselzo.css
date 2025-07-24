@@ -1,20 +1,19 @@
 @import url('../carousel/swiper-bundle.min.css');
-@import url('../carousel/deals-carousel.css');
-@import url('../carousel/services-carousel.css');
-@import url('../carousel/banner-carousel.css');
+@import url('deals-carousel.css');
+@import url('services-carousel.css');
+@import url('banner-carousel.css');
 
-.carousel-container {
+
+.carousel-container{
     background-color: white;
     margin-top: 50px;
 }
-
 .section.carousel-container .carousel-wrapper {
     position: relative;
     max-width: 1140px;
     padding: 0;
 }
 
-/* Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
     background: #0088dd;
@@ -22,13 +21,20 @@
     border-radius: 12px;
 }
 
-/* Ensure disabled buttons are still clickable (for styling) */
+
+/* .swiper-button-prev::after{
+    color: #0088dd
+}>
+.swiper-button-next::after{
+    color: #0088dd
+} */
+
+
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
     pointer-events: all;
 }
 
-/* Arrow icon styling */
 .swiper-button-next::after,
 .swiper-button-prev::after {
     color: #fff;
@@ -36,8 +42,7 @@
     font-weight: 700;
 }
 
-/* Responsive layout */
-@media (max-width: 900px) {
+@media (width <=900px) {
     .section.carousel-container {
         margin: 50px 20px 0 35px;
     }
