@@ -197,8 +197,11 @@
                 "template": {
                   "name": "Carouselzo",
                   "model": "carouselzo"
-        }
+                }
+               }
+              }
+             }
+            }
       ]
-    }
-  ]
-}
+      ]
+        }
