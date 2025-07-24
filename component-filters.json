@@ -52,5 +52,15 @@
     "components": [
       "carousel-item"
     ]
+  },
+  {
+    "id": "carouselzo",
+    "include": true,
+    "category": "content",
+    "tags": [
+      "carousel",
+      "custom",
+      "slider"
+    ]
   }
 ]
