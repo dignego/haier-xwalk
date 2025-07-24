@@ -265,5 +265,18 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carouselzo",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Carousel Style",
+        "options": [
+  
+        ]
+      }
+    ]
   }
 ]
