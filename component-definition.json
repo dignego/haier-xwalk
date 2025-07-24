@@ -197,6 +197,7 @@
                 "template": {
                   "filter": "carouselzo",
                   "name": "Carouselzo",
+                  "model": "carouselzo"
                   
                 }
                }
