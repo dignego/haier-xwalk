@@ -40,4 +40,10 @@
       "title"
     ]
   }
+   {
+      "id": "carousel",
+      "components": [
+        "slide"
+      ]
+    }
 ]
