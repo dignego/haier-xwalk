@@ -6,7 +6,8 @@ export default function decorate(block) {
     const itemDiv = document.createElement('div');
     itemDiv.className = 'featurehighlights-item';
 
-    const icon = block.querySelector(`[data-name="image${i}"] img`);
+    const iconWrapper = block.querySelector(`[data-name="image${i}"]`);
+    const icon = iconWrapper ? iconWrapper.querySelector('img') : null;
     const title = block.querySelector(`[data-name="title${i}"]`);
     const subtitle = block.querySelector(`[data-name="subtitle${i}"]`);
 
