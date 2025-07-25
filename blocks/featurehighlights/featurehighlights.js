@@ -1,28 +1,27 @@
-
 export default function decorate(block) {
   const container = document.createElement('div');
-  container.className = 'section-header-container';
+  container.className = 'featurehighlights-container';
 
   for (let i = 1; i <= 3; i++) {
     const itemDiv = document.createElement('div');
-    itemDiv.className = 'section-header-item';
+    itemDiv.className = 'featurehighlights-item';
 
     const icon = block.querySelector(`[data-name="image${i}"] img`);
     const title = block.querySelector(`[data-name="title${i}"]`);
     const subtitle = block.querySelector(`[data-name="subtitle${i}"]`);
 
     if (icon) {
-      icon.className = 'section-header-icon';
+      icon.className = 'featurehighlights-icon';
       itemDiv.appendChild(icon);
     }
 
     if (title) {
-      title.className = 'section-header-title';
+      title.className = 'featurehighlights-title';
       itemDiv.appendChild(title);
     }
 
     if (subtitle) {
-      subtitle.className = 'section-header-subtitle';
+      subtitle.className = 'featurehighlights-subtitle';
       itemDiv.appendChild(subtitle);
     }
 
