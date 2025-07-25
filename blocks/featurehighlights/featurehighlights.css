@@ -1,13 +1,14 @@
-.section-header-container {
+
+.featurehighlights-container {
   display: flex;
   justify-content: center;
   gap: 40px;
   padding: 40px 20px;
-  background-color: #F5F7F8; /* Haier blue */
+  background-color: #F5F7F8;
   flex-wrap: wrap;
 }
 
-.section-header-item {
+.featurehighlights-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,18 +17,18 @@
   color: #000000;
 }
 
-.section-header-icon {
+.featurehighlights-icon {
   width: 48px;
   height: 48px;
   margin-bottom: 16px;
 }
 
-.section-header-title {
+.featurehighlights-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.section-header-subtitle {
+.featurehighlights-subtitle {
   font-size: 14px;
 }
