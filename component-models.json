@@ -310,36 +310,66 @@
         }
     ]
   },  
-  {
-    "id": "featurehighlights",
-    "fields": [
-      {
-        "component": "group",
-        "name": "features",
-        "label": "Feature Highlights",
-        "multi": true,
-        "fields": [
-          {
-            "component": "reference",
-            "valueType": "string",
-            "name": "image",
-            "label": "Icon",
-            "multi": false
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "title",
-            "label": "Title"
-          },
-          {
-            "component": "text",
-            "valueType": "string",
-            "name": "subtitle",
-            "label": "Subtitle"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "id": "featurehighlights",
+  "fields": [
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "image1",
+      "label": "Icon 1",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "title1",
+      "label": "Title 1"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "subtitle1",
+      "label": "Subtitle 1"
+    },
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "image2",
+      "label": "Icon 2",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "title2",
+      "label": "Title 2"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "subtitle2",
+      "label": "Subtitle 2"
+    },
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "image3",
+      "label": "Icon 3",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "title3",
+      "label": "Title 3"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "subtitle3",
+      "label": "Subtitle 3"
+    }
+  ]
+}
 ]
