@@ -309,9 +309,8 @@
         "valueType": "string"
         }
     ]
-  },
-  
-{
+  },  
+    {
   "id": "featurehighlights",
   "fields": [
     {
