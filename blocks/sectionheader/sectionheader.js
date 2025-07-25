@@ -1,13 +1,12 @@
-
-
 export default function decorate(block) {
-  // Clear existing content
+  // Try to find a <p> or first child with text
+  const textElement = block.querySelector('p') || block.firstChild;
+  const text = textElement?.textContent?.trim() || 'Section Header';
+
+  // Clear block content
   block.innerHTML = '';
 
-  // Get the text from the block (assumes it's in a <p> or similar)
-  const text = block.textContent.trim();
-
-  // Create the section header structure
+  // Create header structure
   const container = document.createElement('div');
   container.className = 'section-header';
 
@@ -24,3 +23,4 @@ export default function decorate(block) {
   container.append(lineLeft, title, lineRight);
   block.append(container);
 }
+
