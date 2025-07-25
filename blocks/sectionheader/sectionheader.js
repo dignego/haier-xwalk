@@ -1,4 +1,4 @@
-import './sectionheader.css';
+
 
 export default function decorate(block) {
   // Clear existing content
