@@ -255,3 +255,49 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+/* Section Header Styles */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  font-family: var(--heading-font-family);
+}
+
+.section-header-line {
+  flex: 1;
+  height: 1px;
+  background-color: #0072ce; /* Haier blue */
+  margin: 0 20px;
+}
+
+.section-header-title {
+  font-size: var(--heading-font-size-s);
+  font-weight: bold;
+  color: #0072ce;
+  white-space: nowrap;
+}
+
+/* Section Header Styles */
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  font-family: var(--heading-font-family);
+}
+
+.section-header-line {
+  flex: 1;
+  height: 1px;
+  background-color: #0072ce; /* Haier blue */
+  margin: 0 20px;
+}
+
+.section-header-title {
+  font-size: var(--heading-font-size-s);
+  font-weight: bold;
+  color: #0072ce;
+  white-space: nowrap;
+}
+
