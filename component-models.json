@@ -310,7 +310,6 @@
         }
     ]
   },  
-    [
   {
     "id": "featurehighlights",
     "fields": [
@@ -343,5 +342,4 @@
       }
     ]
   }
-]
 ]
