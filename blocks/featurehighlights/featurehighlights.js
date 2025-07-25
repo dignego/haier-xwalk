@@ -1,16 +1,15 @@
-export default function decorate(block) {
-  const items = Array.from(block.children);
 
+export default function decorate(block) {
   const container = document.createElement('div');
   container.className = 'section-header-container';
 
-  items.forEach((item) => {
-    const icon = item.querySelector('img');
-    const title = item.querySelector('h3');
-    const subtitle = item.querySelector('p');
-
+  for (let i = 1; i <= 3; i++) {
     const itemDiv = document.createElement('div');
     itemDiv.className = 'section-header-item';
+
+    const icon = block.querySelector(`[data-name="image${i}"] img`);
+    const title = block.querySelector(`[data-name="title${i}"]`);
+    const subtitle = block.querySelector(`[data-name="subtitle${i}"]`);
 
     if (icon) {
       icon.className = 'section-header-icon';
@@ -28,7 +27,7 @@ export default function decorate(block) {
     }
 
     container.appendChild(itemDiv);
-  });
+  }
 
   block.innerHTML = '';
   block.appendChild(container);
