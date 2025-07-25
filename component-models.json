@@ -309,5 +309,30 @@
         "valueType": "string"
         }
     ]
-  }
+  },
+  
+{
+  "id": "featurehighlights",
+  "fields": [
+    {
+      "component": "reference",
+      "valueType": "string",
+      "name": "image",
+      "label": "Icon",
+      "multi": false
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "title",
+      "label": "Title"
+    },
+    {
+      "component": "text",
+      "valueType": "string",
+      "name": "subtitle",
+      "label": "Subtitle"
+    }
+  ]
+}
 ]
